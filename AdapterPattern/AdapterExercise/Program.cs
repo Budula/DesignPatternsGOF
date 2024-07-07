@@ -1,7 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-using AdapterExercise;
+﻿using AdapterExercise;
 
-
+//var geradorGrafico = new MeuGeradorGrafico();
 IGrafico geradorGrafico = new GraficoAdapter();
 
 geradorGrafico.Titulo = "Gerador de Grafico";
